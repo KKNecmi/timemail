@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Mail</title>
+</head>
+<body style="background-color:powderblue; font-family:verdana;">
+
+  <h1 style="text-align: center; color: #000000;">TimeMail</h1>
+  <h2 style="text-align: center;">
+    <span style="background-color: #000000; color: #ffffff;">
+      &nbsp;Send Message To Your Future Self&nbsp;<br />
+    </span>
+  </h2>
+  <hr />
+
+  <h2 style="text-align: center;">Forum</h2>
+
+  <form action="/messagesent" method="POST" style="text-align: center;">
+    <input type="text" name="name" placeholder="Your Name" required style="font-size: 20px; padding: 10px;"><br><br>
+    <input type="email" name="email" placeholder="Your Email" required style="font-size: 20px; padding: 10px;"><br><br>
+    <textarea name="message" placeholder="Write your message..." rows="6" cols="40" required style="font-size: 20px; padding: 10px;"></textarea><br><br>
+    <label for="sendDate" style="font-size: 20px;">Send On:</label><br>
+    <input type="datetime-local" name="sendDate" required style="font-size: 20px; padding: 10px;"><br><br>
+    <button type="submit" style="font-size: 20px; padding: 10px 20px;">Send to the Future 🚀</button>
+  </form>
+
+</body>
+</html>
